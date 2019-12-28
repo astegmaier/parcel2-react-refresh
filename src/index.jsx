@@ -8,7 +8,7 @@ const App = () => {
     return (
         <div>
             <h1>Hello Fast Refresh!</h1>
-            <p>Count {count}. It preserves state!</p>
+            <p>Count {count}. It should preserve state, but it doesn't!</p>
             <button onClick={() => setCount(c => c + 1)}>Increment</button>
             <ChildComponent />
         </div>
